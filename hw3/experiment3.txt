@@ -1,0 +1,33 @@
+for m=100
+perceptron eta=1.000000
+0.9988
+perceptron eta=0.001000 gamma=1.000000
+1.0
+winnow alpha=1.100000
+1.0
+winnow alpha=1.100000 gamma=2.000000
+1.0
+adagrad eta=1.5
+0.9979
+for m=500
+perceptron eta=1.000000
+0.9928
+perceptron eta=0.005000 gamma=1.000000
+1.0
+winnow alpha=1.100000
+1.0
+winnow alpha=1.100000 gamma=0.300000
+1.0
+adagrad eta=1.5
+0.9972
+for m=1000
+perceptron eta=1.000000
+0.9999
+perceptron eta=0.250000 gamma=1.000000
+1.0
+winnow alpha=1.100000
+0.9995
+winnow alpha=1.100000 gamma=0.300000
+0.9998
+adagrad eta=1.5
+0.9998

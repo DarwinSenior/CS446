@@ -1,0 +1,42 @@
+HW3
+
+* Number of example vs number of mistakes
+
+|---------------------+----------+---------------+------------------|
+| algorithm           | Paramter | dataset n=500 | dataset n = 1000 |
+|---------------------+----------+---------------+------------------|
+| Perceptron          |          |               |                  |
+| Perceptron w/margin |          |               |                  |
+| Winnow              |          |               |                  |
+| Winnow w/margin     |          |               |                  |
+| AdaGrad             |          |               |                  |
+|---------------------+----------+---------------+------------------|
+
+Learning curves of online learning algorithms
+
+
+|---------------------+------------+------+------+-------+-------|
+| algorithm           | parameters | n=40 | n=80 | n=120 | n=160 |
+|---------------------+------------+------+------+-------+-------|
+| perceptron          |            |      |      |       |       |
+| perceptron w/margin |            |      |      |       |       |
+| winnow              |            |      |      |       |       |
+| winnow w/margin     |            |      |      |       |       |
+| adagrad             |            |      |      |       |       |
+|---------------------+------------+------+------+-------+-------|
+
+* TODO Ipython example
+
+  #+BEGIN_SRC ipython :session
+    import matplotlib.pyplot as plt
+    import numpy as np
+    %matplot inline
+  #+END_SRC
+
+  #+RESULTS:
+
+  #+BEGIN_SRC ipython :session
+    import tensorflow as tf
+
+
+  #+END_SRC

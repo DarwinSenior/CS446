@@ -1,0 +1,22 @@
+
+perceptron eta=1.000000
+0.9744
+perceptron eta=0.005000 gamma=1.000000
+0.9924
+winnow alpha=1.100000
+0.9954
+winnow alpha=1.100000 gamma=0.040000
+0.9978
+adagrad eta=1.5
+0.9716
+======================================
+perceptron eta=1.000000
+0.9398
+perceptron eta=0.005000 gamma=1.000000
+0.9626
+winnow alpha=1.100000
+0.9968
+winnow alpha=1.100000 gamma=0.040000
+0.9982
+adagrad eta=1.5
+0.9712
